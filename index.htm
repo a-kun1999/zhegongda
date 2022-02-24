@@ -1,0 +1,47 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>刘志豪</title>
+</head>
+
+<body>
+
+<p align="center">
+<img border="0" src="底片.jpg" width="1080" height="2400"></p>
+<div style="position: absolute; width: 370px; height: 100px; z-index: 1; left: 379px; top: 394px" id="layer1">
+	<font face="黑体" style="font-size:36pt; letter-spacing:-1pt">刘志豪通行码</font></div>
+	
+<div style="position: absolute; width: 806px; height: 100px; z-index: 2; left: 418px; top: 611px" id="layer2">
+	<b><div id="date" font face="新宋体" style="font-size: 39pt" align="center" style="margin-top: 17px; font-size: 14px;">
+		<font face="新宋体" style="font-size: 39pt"><b>2020-06-20<span style="letter-spacing: -10pt">
+		</span></b><span style="letter-spacing: -1pt; font-weight:700">00:00:00</span></font></div>
+
+<div style="position: absolute; width: 938px; height: 100px; z-index: 3; left: -3px; top: 610px" id="layer3">
+	<font face="黑体" size="7" color="#808080"><span style="letter-spacing: -4pt">
+	有效时间至：</span><span style="letter-spacing: -2pt"><!--webbot bot="Timestamp" S-Type="REGENERATED" S-Format="%Y-%m-%d" startspan -->2022-02-25<!--webbot bot="Timestamp" endspan i-checksum="12118" --></span><span style="letter-spacing: -8pt">
+	</span><span style="letter-spacing: -3pt">23:59:59</span></font></div>
+	
+</body>
+
+<script>
+var time=document.getElementById("date");
+setInterval("showTime()",1000);
+function showTime(){
+var t=new Date();
+var year=t.getYear();
+if(!document.all){              
+year+=1900;
+}
+var month=t.getMonth()+1;                 
+var day=t.getDate();
+var hour=t.getHours();
+var minu=t.getMinutes();
+var sec=t.getSeconds();
+var re=year+"-"+month+"-"+day+" "+hour+":"+minu+":"+sec;
+time.innerHTML=re;
+}
+</script>
+
+</html>
