@@ -8,13 +8,31 @@
 
 <body>
 
-<div style="position: absolute; width: 370px; height: 100px; z-index: 1; left: 379px; top: 394px" id="layer1">
+	<b>
+	<span style="letter-spacing: -4pt">
+<div style="position: absolute; width: 1080px; height: 2400px; z-index: 1; left:314px; top:5px" id="layer4">
+<img border="0" src="001.jpg" width="1080" height="2400"></div>
+	
+</span></b>
+
+<div style="position: absolute; width: 370px; height: 100px; z-index: 2; left: 379px; top: 394px" id="layer1">
 	<font face="黑体" style="font-size:36pt; letter-spacing:-1pt">刘志豪通行码</font></div>
 	
-<div style="position: absolute; width: 806px; height: 100px; z-index: 2; left: 418px; top: 611px" id="layer2">
-	<b><div  font face="新宋体" style="font-size: 39pt" align="center" style="margin-top: 17px; font-size: 14px;">
-		<font face="新宋体" style="font-size: 39pt">
-		<b><script type="text/javascript">
+<div style="position: absolute; width: 969px; height: 100px; z-index: 3; left: 370px; top: 607px" id="layer2" align="center">
+	<b><font face="新宋体" size="7"  align="center" ><div id ="nowTime"></div></div>
+		
+		
+
+<div style="position: absolute; width: 971px; height: 100px; z-index: 3; left: 369px; top: 1211px" id="layer3" align="center">
+	<span style="letter-spacing: -4pt">
+	<font face="黑体" size="7" color="#808080" align="center">
+	<span style="letter-spacing: -2pt"><div id ="date"></div>  </span></font></div>
+
+</div>
+	
+</body>
+
+<script type="text/javascript">
         function formatDate() {
             var myDate = new Date();
             var year = myDate.getFullYear();
@@ -40,17 +58,7 @@
     </script>
 <h1 id="nowTime"></h1>
 
-</span></font></div>
-
-<div style="position: absolute; width: 938px; height: 100px; z-index: 3; left: -3px; top: 610px" id="layer3">
-	<font face="黑体" size="7" color="#808080"><span style="letter-spacing: -4pt">
-	<span style="letter-spacing: -2pt"><div id ="date"></div>  </span></font></div>
-
-</div>
-<div style="position: absolute; width: 1080px; height: 2400px; z-index: -18; left:314px; top:5px" id="layer4">
-<img border="0" src="001.jpg" width="1080" height="2400"></div>
-	
-</body>
+</span></font>
 
 <script>
 var time=document.getElementById("date");
@@ -77,3 +85,4 @@ time.innerHTML=re;
 
 
 </html>
+
